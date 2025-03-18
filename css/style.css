@@ -49,21 +49,80 @@ border-bottom-style: groove;
      .collection-list{
         padding: 10px;
         list-style: none;
+    
      }
 
     .collection-item{
         padding: 10px;
         list-style: none;
+    
     }
 
     .task-list{
         padding: 10px;
-        list-style: none;    
+        list-style: none; 
+       
     }
 
     .task-item{
    
         list-style: none;
+    
     }
 
-  
+    .editorial{
+        color: white;
+        padding: 10px 20px;
+        border:lightseagreen;
+        background: lightseagreen;
+        margin: 10px;
+        border-radius: 40%;
+    }
+
+    .q1-goals{
+        color: white;
+        padding: 10px 20px;
+        border:fuchsia;
+        background: fuchsia;
+        margin: 10px;
+        border-radius: 40%;
+    }
+
+    .recruiting{
+        color: white;
+        padding: 10px 20px;
+        border:forestgreen;
+        background: forestgreen;
+        margin: 10px;
+        border-radius: 40%;
+        
+    }
+
+    .mobile{
+        color: white;
+        padding: 10px 20px;
+        border:lightsalmon;
+        background: lightsalmon;
+        margin: 10px;
+        border-radius: 40%;
+    }
+
+    .website{
+        color: white;
+        padding: 10px 20px;
+        border:palevioletred;
+        background: palevioletred;
+        margin: 10px;
+        border-radius: 40%;
+    }
+
+    .sales{
+        color: white;
+        padding: 10px 20px;
+        border:rgb(5, 231, 118);
+        background: rgb(5, 231, 118);
+        margin: 10px;
+        border-radius: 40%;
+        vertical-align: middle;
+    }
+
