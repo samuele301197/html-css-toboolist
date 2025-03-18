@@ -9,50 +9,60 @@
 <body class="body">
 
     <header class="header">
-        <img class="header logo" src="./img/Logo.png" alt="Logo Boolean">
+        <img class="header-logo" src="./img/Logo.png" alt="Logo Boolean">
         <h1 class="title"><strong>Toboolist</strong></h1>
     </header>
 
     <main>
-        <div class="container">
-        <section>
-            <button class="button">
-                <p>Add Task</p>
-            </button>
-            <button class="button">
-                <p>Add Section</p>
-            </button>
-        </section>
-        <hr>
-        <section>
-            <ul class="list">
-             <li>
-                 &blacktriangledown;; <strong>New Task</strong>
-                <li>
-                    &check; Quarterly Newsletter</li>
-            </li>
 
-             <li>
-                &blacktriangledown; <strong>Today</strong>
-                <li>
-                    &check;;Recruiting blog post
-                </li>
-                <li>
-                    &check;Mobile app luaunch
-                </li>
-                <li>&cross;Interview John H.</li>
-                <li>&check;Summit update to mobile storefonts</li>
-                 </li>
-             <li>
-                &blacktriangledown; <strong>Upcoming</strong>
-                <li>&cross;Schedule meeting with Alex</li>
-                <li>&check;Homepage refresh</li>
-                <li>&cross;Onboard new sales team members</li>
-                <li>&cross;Review editorial calendar</li>
-             </li>
-        </ul>
+    <div class="container">
+        <section class="border-button">
+                <button class="button">Add Task</button>
+                <button class="button">Add Section</button>
         </section>
-    </div>
+        
+        
+    <section>
+        <ul class="collection-list">
+             <li class="collection-item">
+                &blacktriangledown; <strong>New Task</strong>
+                <ul class="task-list">
+                    <li class="task-item">
+                        &check; Quarterly Newsletter</li>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="collection-list">
+            <li class="collection-item">
+               &blacktriangledown; <strong>Today</strong>
+               <ul class="task-list">
+                   <li class="task-item">
+                       &check; Recruiting blog post</li>
+                       <li> &check;Mobile app luaunch</li>
+                       <li>&cross;Interview John H.</li>
+                       <li>&check;Summit update to mobile storefonts</li>
+                   </li>
+               </ul>
+           </li>
+       </ul>
+
+       <ul class="collection-list">
+        <li class="collection-item">
+           &blacktriangledown; <strong>Upcoming</strong>
+           <ul class="task-list">
+               <li class="task-item">
+                &cross;Schedule meeting with Alex</li>
+                   <li>&check;Homepage refresh</li>
+                   <li>&cross;Onboard new sales team members</li>
+                   <li>&cross;Review editorial calendar</li>
+               </li>
+           </ul>
+       </li>
+   </ul>       
+</section>
+</div>
     </main>
 
     
